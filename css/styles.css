@@ -1,0 +1,14 @@
+.header-container {
+    display: flex;
+    background: #404040;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container {
+    width: 80%;
+    height: 60px;
+    background: cornflowerblue;
+    /* margin: auto; */
+
+}
+
