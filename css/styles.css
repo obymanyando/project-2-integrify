@@ -1,14 +1,307 @@
-.header-container {
-    display: flex;
-    background: #404040;
+
+.header-image {
     justify-content: center;
     align-items: center;
+    /* width: 50%; */
+} 
+
+.header-text {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* width: 50%; */
+} 
+
+.header-text h2 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+    /* width: 50%; */
 }
-.banner-container {
-    width: 80%;
-    height: 60px;
-    background: cornflowerblue;
+
+.header-text p {
+   margin: 40px 0;
+   color: lightgray;
+}
+
+.header-span {
+    font-style: italic;
+    color: gray;
+}
+
+.banner-top {
+    display: flex;
+}
+.banner-top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 0 80px;
+    color: white;
+}
+
+.banner-top-content h1 {
+    color: white;
+    
+}
+
+.banner-top::after {
+    content:"";
+    position:absolute;
+    top:60px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid cornflowerblue;
+    border-right: 50px solid transparent;
+} 
+
+/* .main-container {
+    display: flex;
+    display: block;
+    justify-content: center;
+} */
+
+/* all buttons */
+
+.btn-header {
+    color: white;
+    font-weight: 400;
+  } 
+.btn-banner {
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    font-weight: 500;
+  }
+  
+.btn-content {
+    color: white;
+  } 
+
+/* .btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+    margin: auto;
+    cursor: pointer;
+    opacity: .95; 
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+  }  */
+
+.main-top {
+    display: flex;
+    text-align: center;
+    /* width: 100%; */
+    
+}
+.main-top-item {
+    position: relative;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
+.main-top-item p {
+    margin-bottom: 20px;
+}
+
+.main-top-item-word {
+    font-weight: 400;
+}
+
+.laptop {
+    background-color: white;
+    /* position: relative; */
+    height: 250px;
+}
+
+.laptop::after {
+    content:"";
+    position:absolute;
+    text-align: left;
+    top: 250px;
+    width: 0;
+    height: 0;
+    text-align: left;
+    border-top: 30px solid white;
+    border-right: 30px solid transparent;
+} 
+
+
+/* .main-top-item btn-banner {
+    align-items: center;
+} */
+
+.recent-works {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.recent-works-item{
+    justify-content: flex-start;
+    margin: 10px;
+    }
+  
+.recent-works-item img{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+} 
+
+.recent-works-item h1 {
+font-weight: 700;
+padding: 10px 0 0 10px ;
+} 
+ /* Should have been able to add padding to h1 above and p below on parent element instead of child. */
+.recent-works-item p {
+    padding: 0 0  0 10px;
+} 
+
+.recent-works-item-content {
+    background-color: white;
+    height: 150px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.recent-works-item-content::after {
+    content:"";
+    position:absolute;
+    text-align: left;
+    top: 150px;
+    width: 0;
+    height: 0;
+    text-align: left;
+    border-top: 20px solid red;
+    border-right: 20px solid transparent;
+}
+
+.testimonials-container {
+    display: flex;
+    /* border: 1px dotted blue; */
+    width: 100%;
     /* margin: auto; */
-
+    align-items: left;
 }
 
+.testimonials-left {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+    width: 60%;
+    position: relative;
+}
+
+.testimonials-item {
+    background-color: white;
+    justify-content: center;
+    position: relative;
+    /* height: 110px; */
+    margin: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.testimonials-item::after {
+    content:"";
+    position:absolute;
+    text-align: left;
+    top: 110px;
+    width: 0;
+    height: 0;
+    text-align: left;
+    border-top: 20px solid red;
+    border-right: 20px solid transparent;
+   
+}
+
+
+.testimonials-right {
+    display: flex;
+    text-align: left;
+    width: 40%;
+}
+
+.testimonials-right-item {
+    background-color: white;
+    justify-content: center;
+    position: relative;
+    /* height: 110px; */
+    margin: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: 700;
+    /* margin: 0.67em 0; */
+  }
+
+/* footer styling */
+
+.banner-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 0 80px;
+    color: white;
+}
+
+.banner-bottom::after {
+    content:"";
+    position:absolute;
+    top:60px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid cornflowerblue;
+    border-right: 50px solid transparent;
+} 
+
+.footer-text {
+    display: flex;
+    margin-top: 40px;
+}
+
+.footer-text h1 {
+    color: white;
+}
+
+
+/* border-bg styling */
+
+.border-bg-top {
+    border-image: url(/assets/images/border-BG.jpg) 39 round;
+    border-bottom: 10px solid transparent;
+    transform: scaleX(-1);
+}
+
+.border-bg {
+    position: relative;
+    border-image: url(/assets/images/border-BG.jpg) 40 round;
+    border-bottom: 10px solid transparent;
+    transform: scaleX(-1);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.border-bg-recent-works-span {
+    position: absolute;
+    background-color: inherit;
+
+} 
