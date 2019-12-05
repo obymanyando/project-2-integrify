@@ -3,4 +3,4 @@
 Main learning objective: pseudo classes
 
 ## Project Demo
-[HTML Demo!] https://obymanyando.github.io/project-2-integrify/
+[Demo!] (https://obymanyando.github.io/project-2-integrify/)
